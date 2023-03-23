@@ -66,7 +66,7 @@ const createTransaction = useCallback(
 
   useEffect(() => {
     fetchTransactions()
-  }, [])
+  }, [fetchTransactions])
 
   return (
     <TransactionsContext.Provider
